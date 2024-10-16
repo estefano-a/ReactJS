@@ -1,0 +1,49 @@
+* {
+  background-color: #EAF0F3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#profileCard {
+  height: auto; 
+  width: 400px;
+  background-color: #30455C;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#user{
+  font-size: 24px;
+  margin-bottom: 10px;
+  background-color: #30455C;
+}
+
+#name{
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: #30455C;
+}
+
+#profilePic{
+  background-color: #30455C;
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  display: block;
+}
+
+#phone{
+  background-color: #30455C;
+}
+
+#email{
+  background-color: #30455C;
+  padding-bottom: 15px;
+}
