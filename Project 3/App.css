@@ -1,0 +1,87 @@
+/* General styles for the app */
+* {
+  background-color: #EAF0F3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#profileCard {
+  height: auto;
+  width: 400px;
+  background-color: #30455C;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#user {
+  background-color: #30455C;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#name {
+  background-color: #30455C;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#profilePic {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+#phone, #email {
+  background-color: #30455C;
+  margin-bottom: 10px;
+}
+
+form {
+  width: 400px;
+  background-color: #f5f7f9;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#profileCard button {
+  padding: 8px 12px;
+  background-color: #ff000096;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
